@@ -50,8 +50,8 @@ class _Url_launcherState extends State<Url_launcher> {
             message(messageUrl: "7016711700");
             Uri uri = Uri.parse("7016711700");
             if (await canLaunchUrl(uri)) {
-              await launchUrl(uri);
-            }
+              // await launchUrl(uri);
+            }//
           },
           child: const Icon(Icons.message),
         ),

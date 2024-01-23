@@ -32,7 +32,7 @@ class _Url_launcherState extends State<Url_launcher> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text("Url Launcher"),
-      ),
+      ),//
       body: Column(children: [
         FloatingActionButton(
             onPressed: () async {
